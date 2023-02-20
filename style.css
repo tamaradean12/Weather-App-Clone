@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    color: white;
+    background-image: url(valentin-muller-bWtd1ZyEy6w-unsplash.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-color: rgb(103, 169, 245);
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+/*hr{
+    position: relative;
+    left: 25px;
+    /*width: 100%;
+    margin-top: 10px;
+    color: white;
+    opacity: 60%; 
+    overflow: hidden;   
+} */
+
+#weather-sum{
+    margin-top: 10%;
+    font-weight: 500;
+    text-shadow: 2px 4px 10px #000000;
+}
+
+#location{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#degree{
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+#tomorrow-summary{
+    font-size: 12px;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+    border-color:rgb(255, 255, 255, 0.5);
+}
+
+.high-low{
+    display: inline-flex;
+}
+
+#hourly-forecast-container{
+    text-align: left;
+    margin: 50px 20px 10px 20px;
+    border-style: none;
+    border-radius: 10px;
+    height: 130px;
+    background-color: rgba(140, 140, 140, 0.15);
+    backdrop-filter: blur(5px);
+}
+
+#ten-day-forecast-container{
+    margin: 5px 20px 10px 20px;
+    border-style: none;
+    border-radius: 10px;
+    height: 200px;
+    background-color: rgba(140, 140, 140, 0.15);
+    backdrop-filter: blur(5px);
+}
+
+#ten-day-title{
+    color: rgba(255, 255, 255, 0.578);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: left;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+    border-color:rgb(255, 255, 255, 0.5);
+}
+
+img{
+    filter: invert(98%) sepia(0%) saturate(9%) hue-rotate(26deg) brightness(103%) contrast(101%);
+    width: 10px;
+    height: 10px;
+}

@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 html{
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     color: white;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(103, 169, 245);
     background-image: url(valentin-muller-bWtd1ZyEy6w-unsplash.jpg);
     background-size: cover;
-    background-repeat: none;
-    background-color: rgb(103, 169, 245);
     text-align: center;
-    scroll-behavior: smooth;
 }
 
 /*hr{
@@ -45,6 +47,7 @@ html{
 }
 
 #tomorrow-summary{
+    padding: 0.5rem;
     font-size: 12px;
     border-bottom: 1px solid white;
     margin-left: 10px;
@@ -62,7 +65,14 @@ html{
     border-radius: 10px;
     height: 130px;
     background-color: rgba(140, 140, 140, 0.15);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+}
+
+#twelve-hr-temps{
+    display: inline-flex;
+    margin: 1rem;
+    text-align: center;
+    font-size: 14px;
 }
 
 #ten-day-forecast-container{
@@ -71,18 +81,25 @@ html{
     border-radius: 10px;
     height: 200px;
     background-color: rgba(140, 140, 140, 0.15);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
 }
 
 #ten-day-title{
+    padding: 0.5rem;
     color: rgba(255, 255, 255, 0.578);
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 500;
     text-align: left;
     border-bottom: 1px solid white;
-    margin-left: 10px;
+    margin: 1rem;
     border-color:rgb(255, 255, 255, 0.5);
+}
+
+#forecast-format{
+    border-bottom: 1px solid white;
+    border-color:rgb(255, 255, 255, 0.5);
+    margin: 1rem;
 }
 
 img{
